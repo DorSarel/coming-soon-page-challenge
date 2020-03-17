@@ -55,11 +55,11 @@ p {
   flex-direction: column;
 }
 
-header {
-  padding: 3.25em;
+.figure {
+  padding: 3em 5em;
 }
 
-.logo {
+.figure__logo {
   height: 3rem;
   width: 35%;
 }
@@ -124,4 +124,8 @@ header {
     hsl(0, 74%, 74%, 0.7)
   );
   transform: scale(1.1);
+}
+
+.full-img {
+  display: none;
 }
