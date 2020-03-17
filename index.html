@@ -29,41 +29,43 @@
     </style>
   </head>
   <body>
-    <main class="container">
-      <div class="col col-2">
-        <figure class="figure">
-          <img src="./images/logo.svg" alt="logo" class="figure__logo" />
-        </figure>
-        <section class="showcase">
+    <main>
+      <div class="col">
+        <div class="container">
+          <img src="images/logo.svg" alt="Logo" class="logo" />
+        </div>
+        <figure class="mobile-figure">
           <img
-            src="./images/hero-mobile.jpg"
-            alt="woman photo"
-            class="showcase__img"
+            src="images/hero-mobile.jpg"
+            alt="Mobile image"
+            class="small-img"
           />
-        </section>
-        <div class="main">
-          <div class="main__content">
+        </figure>
+        <div class="container">
+          <div class="content">
             <h1 class="heading-1">
-              <span class="heading-1 heading-1--light">We`re</span> coming soon
+              <span class="heading-1 heading-1--light">We`re</span><br />
+              coming<br />
+              soon
             </h1>
-            <p class="main__subscribe">
+            <p class="content__text">
               Hello fellow shoppers! We're currently building our new fashion
               store. Add your email below to stay up-to-date with announcements
               and our launch deals.
             </p>
-            <form class="main__form">
-              <input
-                type="text"
-                placeholder="Email Address"
-                class="main__input"
-              />
-              <button class="main__btn"></button>
+            <form class="form">
+              <input type="email" placeholder="Email" class="form__input" />
+              <button class="form__btn"></button>
             </form>
           </div>
         </div>
       </div>
-      <div class="col col-1">
-        <img src="images/hero-desktop.jpg" alt="Full image" class="full-img" />
+      <div class="col">
+        <img
+          src="images/hero-desktop.jpg"
+          alt="Desktop image"
+          class="full-image"
+        />
       </div>
     </main>
     <footer>
